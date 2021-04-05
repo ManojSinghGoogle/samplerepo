@@ -1,0 +1,19 @@
+﻿version: '3'
+services:
+  sql-server:
+    container_name: sql-server-db
+    image: microsoft/mssql-server-linux:2017-latest
+    environment:
+        ACCEPT_EULA: "Y"
+        SA_PASSWORD: "Passw0rd2021@"
+        
+          
+  todo-app:
+    build: .
+    ports:
+        - "8080:80"
+    depends_on:
+        - sql-server
+
+ 
+      
