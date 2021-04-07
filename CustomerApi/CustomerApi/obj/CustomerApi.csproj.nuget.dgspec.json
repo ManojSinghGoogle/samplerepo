@@ -1,0 +1,413 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi\\CustomerApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj",
+        "projectName": "CustomerApi.Data",
+        "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj",
+        "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj",
+        "projectName": "CustomerApi.Domain",
+        "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj",
+        "projectName": "CustomerApi.Messaging.Send",
+        "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj",
+        "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Messaging.Send\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Service\\CustomerApi.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Service\\CustomerApi.Service.csproj",
+        "projectName": "CustomerApi.Service",
+        "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Service\\CustomerApi.Service.csproj",
+        "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj": {
+                "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj"
+              },
+              "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj": {
+                "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi\\CustomerApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi\\CustomerApi.csproj",
+        "projectName": "CustomerApi",
+        "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi\\CustomerApi.csproj",
+        "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj": {
+                "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj"
+              },
+              "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj"
+              },
+              "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj": {
+                "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj"
+              },
+              "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Service\\CustomerApi.Service.csproj": {
+                "projectPath": "C:\\Users\\manoj\\dotnet-projects\\MicroserviceDemo\\MicroserviceDemo\\CustomerApi\\CustomerApi.Service\\CustomerApi.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            },
+            "Microsoft.VisualStudio.Azure.Kubernetes.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "WolfgangOfner.MicroserviceDemo.PrimeNumber": {
+              "target": "Package",
+              "version": "[0.1.63, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

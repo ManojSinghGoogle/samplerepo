@@ -1,0 +1,6 @@
+C:\Users\manoj\dotnet-projects\MicroserviceDemo\MicroserviceDemo\OrderApi\OrderApi.Database.Build\bin\Debug\netcoreapp3.1\OrderApi.Database.Build.deps.json
+C:\Users\manoj\dotnet-projects\MicroserviceDemo\MicroserviceDemo\OrderApi\OrderApi.Database.Build\bin\Debug\netcoreapp3.1\OrderApi.Database.Build.dacpac
+C:\Users\manoj\dotnet-projects\MicroserviceDemo\MicroserviceDemo\OrderApi\OrderApi.Database.Build\obj\Debug\netcoreapp3.1\OrderApi.Database.Build.csprojAssemblyReference.cache
+C:\Users\manoj\dotnet-projects\MicroserviceDemo\MicroserviceDemo\OrderApi\OrderApi.Database.Build\obj\Debug\netcoreapp3.1\OrderApi.Database.Build.AssemblyInfoInputs.cache
+C:\Users\manoj\dotnet-projects\MicroserviceDemo\MicroserviceDemo\OrderApi\OrderApi.Database.Build\obj\Debug\netcoreapp3.1\OrderApi.Database.Build.AssemblyInfo.cs
+C:\Users\manoj\dotnet-projects\MicroserviceDemo\MicroserviceDemo\OrderApi\OrderApi.Database.Build\obj\Debug\netcoreapp3.1\OrderApi.Database.Build.dacpac

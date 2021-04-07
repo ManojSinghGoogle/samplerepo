@@ -1,0 +1,3 @@
+C:\Users\manoj\dotnet-projects\MicroserviceDemo\MicroserviceDemo\OrderApi\OrderApi.Database\obj\Debug\OrderApi.Database.sqlprojAssemblyReference.cache
+C:\Users\manoj\dotnet-projects\MicroserviceDemo\MicroserviceDemo\OrderApi\OrderApi.Database\obj\Debug\OrderApi.Database.dll
+C:\Users\manoj\dotnet-projects\MicroserviceDemo\MicroserviceDemo\OrderApi\OrderApi.Database\obj\Debug\OrderApi.Database.pdb
